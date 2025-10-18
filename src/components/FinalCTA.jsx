@@ -37,10 +37,7 @@ const FinalCTA = () => {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Text Content with Staggered Animation */}
           <div className={`text-white transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
-            <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-semibold animate-bounce">
-              🎉 New Release
-            </div>
-            
+           
             <h2 className="mb-6 text-4xl font-bold lg:text-6xl leading-tight">
               <span className="inline-block hover:scale-110 transition-transform duration-300">Join</span>{" "}
               <span className="inline-block hover:scale-110 transition-transform duration-300">the</span>{" "}

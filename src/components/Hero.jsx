@@ -90,7 +90,7 @@ const Hero = () => {
             
             {/* CTA Button with Ripple Effect */}
             <div className={`flex justify-center lg:justify-start transform transition-all duration-1000 delay-600 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-              <Button className="group relative text-base px-10 py-6 rounded-full bg-white text-[#FF6B6B] hover:bg-gray-50 font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-110 hover:shadow-2xl">
+              <Button className="group relative px-10 py-6 rounded-full bg-white text-[#FF6B6B] hover:bg-gray-50 font-bold text-lg overflow-hidden transition-all duration-300 hover:scale-110 hover:shadow-2xl">
                 <span className="absolute inset-0 bg-gradient-to-r from-yellow-100 to-orange-100 opacity-0 group-hover:opacity-50 transition-opacity duration-500"></span>
                 <span className="relative flex items-center gap-2">
                   Get Started
