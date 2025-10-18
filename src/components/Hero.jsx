@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState, useEffect } from "react";
+import heroPhoneImg from "@/assets/hero-phone.png";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -139,7 +140,7 @@ const Hero = () => {
                 {/* Actual Phone Image */}
                 <div className="relative w-full max-w-sm lg:max-w-md">
                   <img 
-                    src="/src/assets/hero-phone.png"
+                    src={heroPhoneImg}
                     alt="MyBindle App Interface" 
                     className="w-full h-auto drop-shadow-2xl"
                   />
